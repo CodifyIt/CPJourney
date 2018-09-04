@@ -16,7 +16,7 @@ That is, **Fibonacci[n] = Fibonacci[n-1] + Fibonacci[n-2]**.<br />
 
 The recursive calls look like following tree.
 >				[3+2]=[5]   fib(4)
->			  			/	  	   \
+>			  	/	  	   \
 >		  [2+1]=[3] fib(3) 		  [1+1]=[2] fib(2)
 >		           /	  \				   /	 \
 >     [1+1]=[2] fib(2) [1] fib(1) [1] fib(1) [1] fib(0)

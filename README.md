@@ -1,2 +1,2 @@
 # CPJourney
-The way to start with Competitive Programming.
+The guide to start with competitive programming.

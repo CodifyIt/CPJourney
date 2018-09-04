@@ -1,9 +1,9 @@
 # Dynamic Programming
-### This directory deals with my journey with Dynamic Programming.
+This directory deals with my journey with Dynamic Programming.
 
-### It won't be as easy as the other tracks, but I'll try to keep it simple.
+It won't be as easy as the other tracks, but I'll try to keep it simple.
 
-### Much of the approaches to DP are directly inhereted following sources
+Much of the approaches to DP are directly inhereted following sources
 ### **[GeeksForGeeks](www.geeksforgeeks.org)**
 ### **[Competitive Programming (NUS)](https://www.comp.nus.edu.sg/~stevenha/myteaching/competitive_programming/cp1.pdf)**
 

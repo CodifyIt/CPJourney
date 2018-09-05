@@ -21,3 +21,10 @@ The recursive calls look like following tree.
 The computation of will be in following way.
 
 ![Fibonacci(4) expansion](images/Fib(4)%20Value%20Tree.png)
+
+### 2. Fibonacci
+In previous solution we can see that the algorithm is computing **fib(2)** twice.<br />
+If we take an array, let's say **memo[n+1]** and store the result of **fib(2)** in it when it is computed for the first time,<br />
+and use the calculated result when we need to calculate **fib(2)** again.<br />
+
+![Fibonacci(4) expansion](images/Fib%20memo%201.png)

@@ -44,13 +44,19 @@ The answer will be generated as follows
 ### 3. Fibonacci (Bottom-Up approach)
 Since we know that the solution for 0th Fibonacci number is 1 and for 1st Fibonacci number is 1, further we know that 2nd Fibonacci number is calculated using 0th and st Fibonacci number, hence we can start building our solution from this known base case and continue building it till we reach the desired state.
 
-The solution will look like
+The solution works as follows
 
-	fib[0] = fib[1] = 1
+![Fibonacci(4) generation](images/Fib%20BU%20array.png)
 
-	fib[2] = fib[0] + fib[1] = 1 + 1 = 2
-	fib[3] = fib[1] + fib[2] = 1 + 2 = 3
-	fib[4] = fib[2] + fib[3] = 2 + 3 = 5
-	fib[5] = fib[3] + fib[4] = 3 + 5 = 8
+> Time complexity ~ O(n)
+> Space Complexity ~ O(n)
 
+### 4. Fibonacci (Bottom-Up approach with space optimization)
+Since we need to remember only the result of the last two states, therefore, we can use only two variables to store the result of previous two states rather than using an entire array.
+
+The solution works as follows
 	
+![Fibonacci(4) generation](images/Fib%20BU%20var.png)
+
+> Time complexity ~ O(n)
+> Space Complexity ~ O(1)

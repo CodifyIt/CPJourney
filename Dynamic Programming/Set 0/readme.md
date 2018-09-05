@@ -17,3 +17,7 @@ That is, **Fibonacci[n] = Fibonacci[n-1] + Fibonacci[n-2]**.<br />
 The recursive calls look like following tree.
 
 ![Fibonacci(4) expansion](images/Fib(4)%20Tree.png)
+
+The computation of will be in following way.
+
+![Fibonacci(4) expansion](images/Fib(4)%20Value%20Tree.png)

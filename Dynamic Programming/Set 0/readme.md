@@ -10,9 +10,9 @@ That is, **Fibonacci[n] = Fibonacci[n-1] + Fibonacci[n-2]**.<br />
 
 ## Explanation of Solutions.
 ### 1. Fibonacci (Top-Down Approach)
-> From the basic rule of Fibonacci we see that nth term is equal to the sum of (n-1)th and (n-2)th term.<br />
-> The base conditions i.e the first and the second number of the series are 1 1,therefore they are hardcoded.<br />
-> The recursive call will return 1 when it encounters n == 1 or n == 0
+From the basic rule of Fibonacci we see that nth term is equal to the sum of (n-1)th and (n-2)th term.<br />
+The base conditions i.e the first and the second number of the series are 1 1,therefore they are hardcoded.<br />
+The recursive call will return 1 when it encounters n == 1 or n == 0
 
 The recursive calls look like following tree.
 

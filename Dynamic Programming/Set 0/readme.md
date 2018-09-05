@@ -36,8 +36,8 @@ The answer will be generated as follows
 
 ![Fibonacci(4) expansion](images/Fib%20memo%202.png)
 
-> It doesn't looks much of an improvement, but imagine if we take fib(6) then we will have to compute the entire fib(4) twice.<br />
-> Similarly, with increase in the value of 'n', the amount required to construct a tree will decrease significantly.<br />
+It doesn't looks much of an improvement, but imagine if we take fib(6) then we will have to compute the entire fib(4) twice.<br />
+Similarly, with increase in the value of 'n', the amount required to construct a tree will decrease significantly.<br />
 
 > Time complexity ~ O(n) ( much less than O(2^n))<br />
 > Space Complexity ~ O(n) (Extra space required to memorize the result of a state)

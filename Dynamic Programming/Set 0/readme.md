@@ -22,7 +22,7 @@ The answer will be generated as follows
 
 ![Fibonacci(4) expansion](images/Fib(4)%20Value%20Tree.png)
 
-> Time Complexity ~ O(2^n)
+> Time Complexity ~ O(2^n)<br />
 > Space Complexity ~ O(n), if recursion stack is taken in to account, else O(1)
 
 ### 2. Fibonacci (Top-Down with Memoization)
@@ -38,7 +38,7 @@ The answer will be generated as follows
 
 > It doesn't looks much of an improvement, but imagine if we take fib(6) then we will have to compute the entire fib(4) twice.<br />
 > Similarly, with increase in the value of 'n', the amount required to construct a tree will decrease significantly.<br />
-> Time complexity ~ O(n) ( much less than O(2^n))
+> Time complexity ~ O(n) ( much less than O(2^n))<br />
 > Space Complexity ~ O(n) (Extra space required to memorize the result of a state)
 
 ### 3. Fibonacci (Bottom-Up approach)
@@ -48,7 +48,7 @@ The solution works as follows
 
 ![Fibonacci(4) generation](images/Fib%20BU%20array.png)
 
-> Time complexity ~ O(n)
+> Time complexity ~ O(n)<br />
 > Space Complexity ~ O(n)
 
 ### 4. Fibonacci (Bottom-Up approach with space optimization)
@@ -58,5 +58,5 @@ The solution works as follows
 	
 ![Fibonacci(4) generation](images/Fib%20BU%20var.png)
 
-> Time complexity ~ O(n)
+> Time complexity ~ O(n)<br />
 > Space Complexity ~ O(1)

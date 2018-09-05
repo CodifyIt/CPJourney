@@ -18,7 +18,7 @@ The recursive calls look like following tree.
 
 ![Fibonacci(4) expansion](images/Fib(4)%20Tree.png)
 
-The computation of will be in following way.
+The answer will be generated as follows
 
 ![Fibonacci(4) expansion](images/Fib(4)%20Value%20Tree.png)
 
@@ -28,3 +28,7 @@ If we take an array, let's say **memo[n+1]** and store the result of **fib(2)** 
 and use the calculated result when we need to calculate **fib(2)** again.<br />
 
 ![Fibonacci(4) expansion](images/Fib%20memo%201.png)
+
+The answer will be generated as follows
+
+![Fibonacci(4) expansion](images/Fib%20memo%202.png)

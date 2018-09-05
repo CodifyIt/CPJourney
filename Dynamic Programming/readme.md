@@ -18,7 +18,7 @@ Starting from Set 0, every Set has the index prefixed with every code file, whic
 > We start from Top, i.e. the required answer, and keep dividing the problem in to sub-problems and dividing those sub-problems in to further sub sub-problems.<br />
 > Until we reach a certain pre-defined base case and start computing the result and returning it to the super-problem.
 
-In conclusion, we start from the required answer and keep dividing it, recursively,  until we reach the base case and then come back to it by calculating the result and hence return the final result.
+>In conclusion, we start from the required answer and keep dividing it, recursively,  until we reach the base case and then come back to it by calculating the result and hence return the final result.
 
 ### What is Bottom-Up approach?
 > It is a way to approach to solution by starting from the base case i.e known to us and thus computing the result for next state until we reach the desired answer.
